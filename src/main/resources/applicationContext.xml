@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="hffamilyManager" class="com.arcesium.Manager.FamilyManagerOneImpl" />
+        <bean id="iamfamilyManager" class="com.arcesium.Manager.FamilyManagerTwoImpl" />
+
+        <bean id="parent" class="com.arcesium.Service.Parent">
+            <property name="familyManager" ref="hffamilyManager"/>
+        </bean>
+        <bean id="child" parent="parent" class="com.arcesium.Service.Child">
+            <property name="familyManager" ref="iamfamilyManager"/>
+        </bean>
+</beans>
