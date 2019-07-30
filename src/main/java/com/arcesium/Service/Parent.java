@@ -3,7 +3,7 @@ package com.arcesium.Service;
 import com.arcesium.Manager.FamilyManager;
 
 public class Parent {
-    FamilyManager familyManager;
+    private FamilyManager familyManager;
 
     public void setFamilyManager(FamilyManager familyManager) {
         this.familyManager = familyManager;
