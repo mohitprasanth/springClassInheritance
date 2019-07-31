@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697d6483-6e5c-4105-8111-9e2bcfab2713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/arcesium/Service/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arcesium/Service/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/arcesium/Service/TestBeanExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/arcesium/Service/TestBeanExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arcesium/Service/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arcesium/Service/Child.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564452557909</updated>
-      <workItem from="1564452563202" duration="7913000" />
+      <workItem from="1564452563202" duration="9681000" />
     </task>
     <servers />
   </component>
@@ -108,5 +106,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/arcesium/Service/Parent.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/arcesium/Service/Child.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/arcesium/Service/Parent.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
